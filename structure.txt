@@ -1,12 +1,16 @@
-feedback/
-├─ .env
-├─ .gitignore
-├─ server.js
-├─ structure.txt
-├─ public/
-│  ├─ index.html
-│  ├─ script.js
-│  ├─ style.css
-│  ├─ admin.html
-│  ├─ admin.js
-└─ package.json
+project/
+│
+├── server.js              # Express server
+├── package.json           # Dependencies
+├── .env                   # Redis credentials (not committed to git)
+│
+├── public/                # Static assets
+│   ├── index.html         # User feedback form
+│   ├── script.js          # Form logic
+│   ├── style.css          # Form styling
+│   │
+│   ├── admin.html         # Admin dashboard
+│   ├── admin.js           # Admin logic
+│   └── admin.css          # Admin styling
+│
+└── README.md
