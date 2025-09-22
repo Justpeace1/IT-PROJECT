@@ -1,0 +1,12 @@
+feedback/
+├─ .env
+├─ .gitignore
+├─ server.js
+├─ structure.txt
+├─ public/
+│  ├─ index.html
+│  ├─ script.js
+│  ├─ style.css
+│  ├─ admin.html
+│  ├─ admin.js
+└─ package.json

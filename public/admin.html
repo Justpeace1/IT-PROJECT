@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin — SIWES Feedbacks</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <h1>📋 SIWES Feedback Admin</h1>
+
+  <div class="table-container">
+    <table id="feedbackTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Message</th>
+          <th>Subscribed</th>
+          <th>Time</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td colspan="6" class="empty">Loading...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="messageModal">
+  <div class="modal-content">
+    <h2 id="modalName"></h2>
+    <p><strong>Email:</strong> <span id="modalEmail"></span></p>
+    <p><strong>Subscribed:</strong> <span id="modalSubscribed"></span></p>
+    <p><strong>Time:</strong> <span id="modalTime"></span></p>
+    <hr />
+    <p id="modalMessage"></p>
+    <br />
+    <button id="closeModal">Close</button>
+  </div>
+</div>
+
+
+  <script src="admin.js"></script>
+</body>
+</html>
