@@ -24,10 +24,10 @@ function updatePreview() {
 }
 
 // ========== EVENT LISTENERS ==========
-// Live preview
-[nameEl, emailEl, messageEl].forEach((el) =>
-  el.addEventListener("input", updatePreview)
-);
+// // Live preview
+// [nameEl, emailEl, messageEl].forEach((el) =>
+//   el.addEventListener("input", updatePreview)
+// );
 
 // Toggle subscribe switch
 function toggleSwitch() {

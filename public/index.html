@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -7,17 +8,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
 
   <div class="container">
-
     <div class="card" role="region" aria-labelledby="form-heading">
 
-      <div class="left">
+      <!-- LEFT SIDE -->
+      <div class="card-left">
+      <img src="efcc-logo.png" alt="EFCC Logo" width="150" height="150">
+        <h1 id="form-heading">Feedback</h1>
+        <p>Share your thoughts about the SIWES experience or subscribe to updates. Your message helps improve the
+          project.</p>
+      </div>
 
-        <h1 id="form-heading">SIWES Feedback & Subscribe</h1>
-        <p>Share your thoughts about the SIWES experience or subscribe to updates. Your message helps improve the project.</p>
-
+      <!-- RIGHT SIDE -->
+      <div class="card-right">
         <form id="feedbackForm" class="form" novalidate>
           <div class="row">
             <div class="col">
@@ -45,7 +51,7 @@
               </div>
               <div>
                 <div style="font-weight:600">Subscribe to updates</div>
-                <div class="small">Get newsletters and project updates</div>
+                <div class="small">Get newsletters</div>
               </div>
             </div>
 
@@ -59,20 +65,10 @@
         </form>
       </div>
 
-      <aside class="right" aria-label="preview and info">
-        <div class="preview">
-          <div style="font-weight:700">Preview</div>
-          <div class="meta" id="previewMeta">Name — Email — Subscribed: No</div>
-          <div style="margin-top:10px;color:var(--muted);font-size:14px" id="previewMessage">Your message will appear here as you type.</div>
-        </div>
-      </aside>
     </div>
-
-    <footer>
-      Built for SIWES project — simple, responsive, accessible.
-    </footer>
   </div>
 
-  <script src="script.js" ></script>     
+  <script src="script.js"></script>
 </body>
+
 </html>
