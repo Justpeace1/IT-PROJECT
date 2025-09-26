@@ -1,20 +1,27 @@
 :root {
-  --bg: #28559f;
-  --card: #2b4068;
-  --accent: #bdbbc5;
-  --muted: #94a3b8;
+  --bg: #f5f5f5;         /* Light background */
+  --card: #ffffffb9;       /* White card background */
+  --accent: #d32f2f;     /* EFCC Red */
+  --success: #006400;    /* Nigerian Green */
+  --muted: #666666;      /* Neutral gray */
 }
 body {
   font-family: "Inter", system-ui, sans-serif;
   background: var(--bg);
-  color: #e6eef8;
+  color: #030303;
   margin: 0;
   padding: 20px;
 }
+
+.efcc-logo {
+  display: block;
+  margin: 20px auto; /* pushes logo into center horizontally */
+}
+
 h1 {
   text-align: center;
   margin-bottom: 24px;
-  color: #fff;
+  color: #0a0a0a;
 }
 .table-container {
   max-width: 1000px;
@@ -99,7 +106,7 @@ tr:hover {
   border-radius: 10px;
   max-width: 600px;
   width: 90%;
-  color: #fff;
+  color: #040404;
 }
 
 #messageModal h2 {
